@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 		<hr>
 		<div class="col-md-6">
 			<h3>[Create Event Form]</h3>
-			
+
 			<button type="submit" class="btn btn-primary">Save</button>
 			<button type="submit" class="btn btn-default" (click)="cancel()">Cancel</button>
 		</div>
@@ -15,8 +15,8 @@ import { Router } from '@angular/router';
 })
 
 export class CreateEventComponent implements OnInit {
-	isDirty:boolean = true;
-	constructor(private router:Router) { }
+	isDirty = true;
+	constructor(private router: Router) { }
 
 	ngOnInit() { }
 
